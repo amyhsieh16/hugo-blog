@@ -1,6 +1,6 @@
 baseURL = "http://localhost:1313/"
 languageCode = "zh-tw"
-defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
+defaultContentLanguage = "zh-tw"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "Amy Blog"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
