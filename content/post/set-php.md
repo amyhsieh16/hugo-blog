@@ -1,9 +1,14 @@
-# 在Linux(Centos/Ubuntu)上，安裝LAMP/LEMP(LNMP)
+---
+title: "在Linux(Centos/Ubuntu)上，安裝LAMP/LEMP(LNMP)"
+date: 2020-06-12T18:31:11+08:00
+draft: flase
 
-[TOC]
-# PHP
+---
 
-## Centos 
+
+## PHP
+
+### Centos 
 1. 從官網取得 Remi和 EPEL rpm的連結
 ```bash
 centos 7:
@@ -37,7 +42,7 @@ $sudo yum install php php-ctype php-json php-openssl php-nette-tokenizer php-pec
 zip unzip php-bcmath(laravel5.7↑)
 ```
 
-## Ubuntu
+### Ubuntu
 
 Ubuntu 18.04 預設安裝 php7.2，若想安裝最新版本，需新增 PPA
 
@@ -70,9 +75,9 @@ Zend Engine v3.4.0, Copyright (c) Zend Technologies
 $sudo apt install php7.4-{bcmath,bz2,intl,gd,mbstring,mysql,zip}
 ```
 
-# 伺服器(Apache)
+## 伺服器(Apache)
 
-## Centos
+### Centos
 
 1. 安裝
 ```bash
@@ -87,7 +92,7 @@ $sudo systemctl restart httpd(重新啟動)
 $sudo systemctl stop httpd(停止apache)
 ```
 
-## Ubuntu
+### Ubuntu
 
 1. 安裝
 ```bash
@@ -103,9 +108,9 @@ $sudo systemctl stop apache2(停止apache)
 ```
 
 
-# 伺服器(Nginx)
+## 伺服器(Nginx)
 
-## Centos
+### Centos
 1. 安裝
 ```bash
 $sudo yum install nginx
@@ -144,7 +149,7 @@ server {
 :::info
 /usr/share/nginx/html/
 :::
-## Ubuntu
+### Ubuntu
 
 1. Install
 
@@ -181,15 +186,15 @@ server {
 ```
 
 
-# MySQL
+## MySQL
 
-## Centos
-## Ubuntu
+### Centos
+### Ubuntu
 
-# PhpMyAdmin
+## PhpMyAdmin
 
-## Centos
-## Ubuntu
+### Centos
+### Ubuntu
 
 
-# 防火牆(Firewall)
+## 防火牆(Firewall)
